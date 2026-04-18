@@ -1,0 +1,38 @@
+# Backend
+server/node_modules/
+client/node_modules/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Mongo local files (если вдруг используешь локально)
+data/
+*.mongodb
+
+# VS Code
+.vscode/
+
+# Environment files (важно)
+.env
+.env.*
+!.env.example
+
+# OS
+Thumbs.db
+
+# Build
+build/
+coverage/
+
+# Expo extra
+.expo-shared/
+
+# Temporary
+tmp/
+temp/
